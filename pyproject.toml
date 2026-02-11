@@ -1,0 +1,18 @@
+[project]
+name = "bom360-agents"
+version = "0.2.0"
+description = "Multi-agent manufacturing execution system over Neo4j BOM360 graph"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.2.0",
+    "pydantic>=2.7.0",
+    "pydantic-ai>=0.0.20",
+    "python-dotenv>=1.0.1",
+    "neo4j>=5.20.0",
+]
+
+[project.scripts]
+bom360 = "src.app:main"
+
+[tool.ruff]
+line-length = 100

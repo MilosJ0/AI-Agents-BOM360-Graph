@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "bom360": "./src/studio.py:graph"
+  },
+  "env": ".env"
+}
